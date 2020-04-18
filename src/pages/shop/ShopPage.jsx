@@ -16,12 +16,7 @@ class ShopPage extends React.Component {
       return <CollectionPreview key={collection.id} {...collection} />;
     });
 
-    return (
-      <div>
-        <h1>Collection</h1>
-        {collectionPreviewDisplay}
-      </div>
-    );
+    return <div>{collectionPreviewDisplay}</div>;
   }
 }
 
